@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  GoalsVC.swift
 //  TabBarVCTest
 //
 //  Created by DA MAC M1 157 on 2023/10/03.
@@ -7,13 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class GoalsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        view.backgroundColor = .systemBackground
+
     }
+    
 
-
+    
 }
-
